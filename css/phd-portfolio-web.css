@@ -221,7 +221,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .icon-2 {
 /* Main styling */
 
 main {
-	padding: 80px;
+	padding: 80px 80px 100px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 5%;
@@ -413,7 +413,7 @@ main {
 
 footer {
 	background-color: #E3E3E3;
-	padding: 40px 80px;
+	padding: 40px 80px 80px;
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 20px;
@@ -532,7 +532,9 @@ ul.logo-links {
     	grid-column: span 4;
 	}
 
-}
+	footer {
+	padding: 40px 80px;
+	}
 
 @media screen and (max-width: 1024px) {
 	main {
