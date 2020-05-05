@@ -571,6 +571,10 @@ ul.logo-links {
     	grid-column: span 6;
 	}
 
+	.report-thumb:last-child {
+    	margin-bottom: 180px;
+	}
+
 	ul.about-links, ul.logo-links {
 		grid-column: span 9;
 	}
