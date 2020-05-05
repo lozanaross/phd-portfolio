@@ -538,6 +538,7 @@ ul.logo-links {
 	main {
     	grid-template-columns: repeat(9, 1fr);
     	padding: 40px;
+    	margin-bottom: 80px;
 	}
 
 	.main-text {
@@ -547,7 +548,6 @@ ul.logo-links {
 	.report-details .main-text {
 		grid-column: span 8;
     	grid-row: 2/span all;
-    	margin-bottom: 80px;
 	}
 
 	.report-number-section {
@@ -557,6 +557,7 @@ ul.logo-links {
 
 
 @media screen and (max-width: 768px) {
+
 
 	.nav-bar, .by-line {
 		display: none;
@@ -572,6 +573,11 @@ ul.logo-links {
 
 	ul.about-links, ul.logo-links {
 		grid-column: span 9;
+	}
+
+	footer {
+	   	grid-template-columns: repeat(9, 1fr);
+		padding: 40px 20px;
 	}
 
 }
