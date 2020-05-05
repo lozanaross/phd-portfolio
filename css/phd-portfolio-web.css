@@ -233,7 +233,7 @@ main {
 	.report-thumb {
 		grid-column: span 3;
 		display: grid;
-		grid-template-rows: auto auto auto auto;
+		grid-template-rows: repeat(4, max-content);
 		grid-gap: 10px;
 	}
 
