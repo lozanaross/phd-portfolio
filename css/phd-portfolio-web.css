@@ -399,11 +399,11 @@ main {
 
 /* Styling for timeline page */
 
-.timeline {
+.report-supplements {
 	grid-column: span 12;
 }
 
-.timeline img {
+.report-supplements img {
 	grid-column: span 12;
 	width: 100%;
 }
