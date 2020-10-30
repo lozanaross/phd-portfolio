@@ -427,7 +427,7 @@ main {
     	justify-self: end;
     	margin-right: -60px;
     	margin-bottom: -40px;
-    	animation: scroll 1.5s ease-in-out 3;
+    	animation: scroll 1.5s ease-in-out infinite;
     	--axis-y: 0.5rem;
     }
 
