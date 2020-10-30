@@ -661,6 +661,10 @@ ul.logo-links {
 		grid-column: span 8;
 	}
 
+	main div.report-thumb:last-child {
+		margin-bottom: 180px;
+	}
+
 	.report-details .main-text {
 		grid-column: span 8;
     	grid-row: 2/span all;
