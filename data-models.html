@@ -63,7 +63,7 @@
 
 		<h2>Introduction</h2> 
 
-		<p>Established metadata schemas or ontologies within archival or museum institutions, which focus overwhelmingly on the description of physical objects, are not readily applicable to net art. Following the move of ArtBase data to a <a href="https://wikimediafoundation.org/de/news/2018/09/06/rhizome-wikibase/" target="_blank">linked data ecosystem (Wikibase)</a>, it was possible to rethink the entire metadata model for the archive. This new model carefully considers the processual, performative and networked characteristics that make net art works more than just objects whose material properties can be fully captured within a few descriptive metadata fields.</p>
+		<p>Net art resists the established metadata schemas and ontologies which focus overwhelmingly on the description of physical objects held within archives and museums. Following the move of ArtBase data to a <a href="https://wikimediafoundation.org/de/news/2018/09/06/rhizome-wikibase/" target="_blank">linked data ecosystem (Wikibase)</a>, it was possible to rethink the entire metadata model for the archive. This new model carefully considers the processual, performative and networked characteristics of net art works whose material properties cannot be fully expressed within a few, limited descriptive metadata fields.</p>
 
 	</div>
 
@@ -84,7 +84,7 @@
 			<h2>Artwork record model</h2>
 		</div>
 
-		<p>A net art piece can evolve over time into various instantiations—either because of intentional actions by the creator(s) of the work, because of intervention by institutional staff working to preserve or exhibit the work, or because of structural changes in the software or network components of the work. Rhizome refer to these multiple instantiations as variants. A key component of the artwork record model thus is the possibility to link the work to all of its variants (or at least the ones recorded in the ArtBase).</p>
+		<p>A net art work evolves over time into various instantiations—either because of intentional actions by the creator(s) of the work, intervention by institutional staff working to preserve or exhibit the work, or due to structural changes in the software or network components of the work. Rhizome refer to these multiple instantiations as ‘variants’. A key component of the artwork record model thus is the potential to link a work to all of its variants (provided that these have been recorded in the ArtBase either as archival copies, web archives, or external links).</p>
 
 </section>
 
@@ -101,7 +101,7 @@
 			<h2>Variant record model</h2>
 		</div>
 
-		<p>The variant record model can account for a range of changes in a work’s technical or user-interaction make-up due to an active intervention by the artist, or due to a contextual event outside the control of the artist, such as a component becoming obsolete. Preservation actions like the addition of a web archive or emulation instance, which result in the generation of new variants, can also be recorded alongside information about the agent(s) who carried out the action. Variants generated through such actions are associated with the archival institution, rather than the artist. The relationship of attribution to the artist can be inferred via the connection of the variant to the main artwork record.</p>
+		<p>The variant record model makes it possible to document a range of changes in a work’s technical properties and user-interaction requirements. It also provides space to express the reasons for those changes, which may be due to an active intervention by the artist, or caused by a contextual event outside their control, such as a component becoming obsolete. Preservation activities which result in the generation of new variants, for example the addition of a web archive or an emulation instance, can be recorded alongside information about the agent(s) who carried out the action. Variants generated through such actions are associated with the archival institution, rather than the artist. The relationship of attribution to the artist can be inferred via the connection of the variant to the main artwork record.</p>
 
 </section>
 
@@ -118,7 +118,7 @@
 			<h2>Actor records model</h2>
 		</div>
 
-		<p>Artworks in the ArtBase are not only processual and variable. They also operate within the context of a community-specific networked culture, emerging with the mainstream spread of accessible network connections in the late 80s and developing further into the 90s and the beginning of the 21st century. This culture is quite different from traditional (Western) archival and curatorial understanding of the artist as a sole creator of a unique object. Multiple contributors with different roles and levels of contribution, ranging from artists and programmers to audience members, as well as multiple variations of the artworks involving all or some of the above actors need to be accounted for in the new ArtBase data model. Additional descriptive information can be attached to all actors in the network, as and when needed. The possibility to link out to external authority control or linked data databases enriches the data model further.</p>
+		<p>Artworks in the ArtBase operate within the context of a community-specific networked culture, which emerged alongside the mainstream spread of accessible network connections in the late 80s and developed further through the 90s and onwards into the beginning of the 21st century. This cultural context presents a challenge to the traditional (Western) archival and curatorial understanding of the artist as a sole creator of a unique object. It is common in net art for multiple actors—ranging from artists and programmers to audience members—to play different roles and offer varying levels of contribution towards a work. So multiple actors, as well as multiple variations of the artworks (involving some or all of those actors), need to be accounted for by the new ArtBase data model. Additional descriptive information can be attached to individual actors in the network, as and when needed. The possibility to link out to external authority control or linked data databases enriches the data model further.</p>
 
 </section>
 
@@ -135,7 +135,7 @@
 			<h2>Descriptive text and event records model</h2>
 		</div>
 
-		<p>The data model also accounts for the existence of various types of natural language descriptions of the works, which cannot be simply translated into structured data. Some of these include artists’ or curatorial statements. There are also various types of events which can inform the history of an artwork and its variants, from an exhibition re-performance to a citation in an important bibliographic resource. The data model provisions that every piece of text or event associated with an artwork is identified as a unique item in the database. Specific structured data can then be associated with each item, and also queried for (e.g. date, time, actors involved, etc.).</p>
+		<p>This data model also accounts for variation in the natural language descriptions of works, such as artists’ statements or curatorial summaries, which cannot be translated simply into structured data. Contextual events can also inform the history of an artwork and its variants, from an exhibition re-performance to a citation in an important bibliographic resource. Within the framework of the data model, every piece of text or event associated with an artwork is identified as a unique item in the database. Specific structured data can then be associated with individual items, and also queried by date, time, actors involved, etc.</p>
 
 </section>
 
@@ -152,7 +152,7 @@
 			<h2>Preservation metadata modeling</h2>
 		</div>
 
-		<p>The data model proposes further ways to describe generation activities (such as the creation of a web archive or emulation instance) and archival plans (which describe any interventions carried out by the archive team in more detail). Additional software-preservation-related records describe specific environments or software applications, which play a part in the generation, (re-)performance and preservation of variants. The overarching conceptual principle connecting these interdependent entities in the new ArtBase data model is not any particular metadata standard, but the principle of archival provenance. Provenance here is used within an expanded understanding, wherein the archival record is no longer considered to be a static, value-neutral entity with a clean-cut chain of custody, but rather a dynamic process of creation, production and interpretation, which is carried out by multiple human and non-human agents.</p>
+		<p>This data model facilitates the description of generation activities associated with preservation. These activities may include the creation of a web archive or emulation instance, or the drawing up of an archival plan, which describes interventions carried out by the archive team in detail. Additional software-preservation-related records describe specific environments or software applications, which are required for the generation, (re-)performance and preservation of variants. The overarching conceptual principle connecting these interdependent elements in the new ArtBase data model is not any particular metadata standard, but the principle of archival provenance. The term ‘provenance’ is used here to encompass the dynamic processes involving multiple human and non-human agents by which archival records are created, produced and interpreted over time. This definition of provenance goes further than its traditional usage which refers to an object’s chain of custody.</p>
 
 </section>
 
@@ -169,9 +169,9 @@
 			<h2>PROV case study</h2>
 		</div>
 
-		<p>In a research case study project carried out in collaboration with art historian and researcher Dr Karin de Wild, between 2018–2019, we argue that PROV—a model developed by the <a href="https://www.w3.org/TR/prov-overview/" target="_blank">Provenance Working Group at W3C</a> to express the provenance of digital data on the web—is applicable to the case of net art works. Unlike other provenance standards which focus on a single entity (the art object) and its history of ownership, PROV describes entities, agents and activities, following a few formal patterns, e.g. derivation, generation, association:</p>
+		<p>In a research case study carried out in collaboration with art historian and researcher Dr Karin de Wild between 2018–2019, we argue that PROV—a model developed by the <a href="https://www.w3.org/TR/prov-overview/" target="_blank">Provenance Working Group at W3C</a> to express the provenance of digital data on the web—is applicable to the case of net art works. Unlike other provenance standards, which focus on a single entity (the art object) and its history of ownership, PROV describes entities, agents and activities in terms of their derivation, generation and association:</p>
 		
-		<p>“The PROV model not only captures the creation of the artwork, but also how various actors contribute to or influence the work over time. For instance, these may include individuals or institutions, who commission, acquire, transfer or modify the work. Furthermore, PROV-DM can capture the different variants of a single artwork, even when these are preserved across various institutions. A single Internet artwork can be included in multiple (museum) collections, (Web) archives, whilst being part of the live Web.”</p>
+		<p>“The PROV model not only captures the creation of the artwork, but also how various actors contribute to or influence the work over time. For instance, these may include individuals or institutions who commission, acquire, transfer or modify the work. Furthermore, PROV-DM can capture the different variants of a single artwork, even when these are preserved across various institutions. A single Internet artwork can be included in multiple (museum) collections and (Web) archives, whilst being part of the live Web.”</p>
 		
 		<p><a href="https://github.com/PROV-DCH/publications" target="_blank">[read more here]</a></p>
 
