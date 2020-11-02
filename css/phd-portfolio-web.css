@@ -569,7 +569,7 @@ ul.logo-links {
 	}
 
 	h1 {
-    	font-size: calc(32px + 12 * (100vw - 320px) / 1600);
+    	font-size: calc(32px + 14 * (100vw - 320px) / 1600);
 	}
 	h2 {
     	font-size: calc(20px + 8 * (100vw - 320px) / 1600);
@@ -594,7 +594,7 @@ ul.logo-links {
    		font-size: 16px;
 	}
 	h1 {
-   		font-size: 50px;
+   		font-size: 46px;
 	}
 	h2 {
 		font-size: 28px;
