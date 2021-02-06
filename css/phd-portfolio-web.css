@@ -551,12 +551,13 @@ ul.logo-links {
 	.logo-links li.logo-image {
 		grid-column: span 1;
 		grid-row: 2/2;
-		align-self: end;
+		align-self: center;
 	}
 
 	.logo-links li img {
-		width: 100%;
+		max-width: 100%;
 		mix-blend-mode: multiply;
+		max-height: 46px;
 	}
 
 
