@@ -314,8 +314,6 @@ main {
 	}
 
 	.circle {
-		background: rgb(154,236,249);
-		background: linear-gradient(42deg, rgba(154,236,249,1) 0%, rgba(198,156,251,1) 47%, rgba(120,88,255,1) 100%);
 		grid-row: 1/4;
 		grid-column: 1/1;
 		justify-self: center;
@@ -323,6 +321,26 @@ main {
 		width: 300px;
 		height: 300px;
 		border: 1px solid #000;
+	}
+
+	.circle-one {
+		background: rgb(154,236,249);
+		background: linear-gradient(42deg, rgba(154,236,249,1) 0%, rgba(198,156,251,1) 47%, rgba(120,88,255,1) 100%);
+	}
+
+	.circle-two {
+		    background: rgb(154,236,249);
+    		background: linear-gradient(228deg, rgb(225 166 255 / 47%) 0%, rgb(255 130 244 / 60%) 30%, #2f00f7 100%);
+	}
+
+	.circle-three {
+    	background: rgb(154,236,249);
+    	background: linear-gradient(236deg, rgb(121 255 187) 0%, rgb(187 255 130) 30%, rgb(74 146 255) 90%);
+	}
+
+	.circle-four {
+		background: rgb(154,236,249);
+		background: linear-gradient(29deg, rgba(130,255,182,1) 0%, rgba(85,252,247,1) 25%, rgba(124,95,255,1) 70%);
 	}
 
 	.number {
